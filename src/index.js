@@ -20,23 +20,35 @@ refs.searchForm.addEventListener('input', debounce(inputSearch, DEBOUNCE_DELAY))
 
 function inputSearch(e) {
     const search = e.target.value;
+    fetchCountries(search)
+        .then(r => {
+                if (r.length > 10) {
+            
+                    Notiflix.Notify.info("Too many matches found. Please enter a more specific name.");
+                    return null;
+                };
+                 if (2 <= r.length && r.length < 10) {
+                      
+                    for (const country of r) {
+                    console.log(country);
+                    };
+                }
+                 else {
+                      
+                    for (const country of r) {
+                     console.log(country);
+                     };
+                };
+        });;
+}
     // fetchCountries(search);
-    fetchCountries(search).then(r => {
-        if (r.length > 10) {
-          return Notiflix.Notify.info("Too many matches found. Please enter a more specific name."); 
-        };
-        if ( 2 < r.length < 10) {
-           console.log('Oll is rith');
-        };
-        if (r.length < 2) {
-            console.log(r.length);
-           return console.log('we finde one country');
-        }
-    });
-}
 
 
-function fetchCountries(name) {
-    const url = `https://restcountries.com/v3/name/${name}?fields=name,capital,population,flags,languages`;
-   return fetch(url).then(r => r.json());
-}
+ function fetchCountries(name) {
+        const url = `https://restcountries.com/v3.1/name/${name}?fields=name,capital,population,flags,languages`;
+        return fetch(url)
+            .then(r => {
+                return r.json()
+            })
+            
+    }
