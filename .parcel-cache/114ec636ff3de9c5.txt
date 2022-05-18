@@ -1,0 +1,26 @@
+25
+63C:\Users\Bereg\Documents\GitHub\goit-js-hw-10\package-lock.json132739472310000000 0
+61C:\Users\Bereg\Documents\GitHub\goit-js-hw-10\.browserslistrc132739472310000000 0
+59C:\Users\Bereg\Documents\GitHub\goit-js-hw-10\.editorconfig132739472310000000 0
+62C:\Users\Bereg\Documents\GitHub\goit-js-hw-10\.prettierrc.yaml132739472310000000 0
+60C:\Users\Bereg\Documents\GitHub\goit-js-hw-10\.posthtmlrc.js132739472310000000 0
+58C:\Users\Bereg\Documents\GitHub\goit-js-hw-10\src\index.js132973454120000000 0
+53C:\Users\Bereg\Documents\GitHub\goit-js-hw-10\.github132973563463454870 1
+58C:\Users\Bereg\Documents\GitHub\goit-js-hw-10\src\partials132973563464559825 1
+56C:\Users\Bereg\Documents\GitHub\goit-js-hw-10\.gitignore132739472310000000 0
+57C:\Users\Bereg\Documents\GitHub\goit-js-hw-10\.htmlnanorc132739472310000000 0
+53C:\Users\Bereg\Documents\GitHub\goit-js-hw-10\.sassrc132739472310000000 0
+65C:\Users\Bereg\Documents\GitHub\goit-js-hw-10\src\images\demo.jpg132739472310000000 0
+58C:\Users\Bereg\Documents\GitHub\goit-js-hw-10\package.json132973565813540803 0
+55C:\Users\Bereg\Documents\GitHub\goit-js-hw-10\README.md132739472310000000 0
+49C:\Users\Bereg\Documents\GitHub\goit-js-hw-10\src132973563800580179 1
+53C:\Users\Bereg\Documents\GitHub\goit-js-hw-10\src\css132973563800803238 1
+56C:\Users\Bereg\Documents\GitHub\goit-js-hw-10\src\images132973563464269996 1
+63C:\Users\Bereg\Documents\GitHub\goit-js-hw-10\.github\workflows132973563463664772 1
+60C:\Users\Bereg\Documents\GitHub\goit-js-hw-10\src\index.html132973454120000000 0
+54C:\Users\Bereg\Documents\GitHub\goit-js-hw-10\src\sass132973563465029557 1
+64C:\Users\Bereg\Documents\GitHub\goit-js-hw-10\src\sass\main.scss132739472310000000 0
+68C:\Users\Bereg\Documents\GitHub\goit-js-hw-10\src\sass\_example.scss132739472310000000 0
+71C:\Users\Bereg\Documents\GitHub\goit-js-hw-10\src\partials\example.html132739472310000000 0
+64C:\Users\Bereg\Documents\GitHub\goit-js-hw-10\src\css\styles.css132973454120000000 0
+74C:\Users\Bereg\Documents\GitHub\goit-js-hw-10\.github\workflows\deploy.yml132739472310000000 0
