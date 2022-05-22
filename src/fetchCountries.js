@@ -3,15 +3,11 @@ export default  function fetchCountries(name) {
     return fetch(url)
      
         .then(response => {
-            if (response.status === 200) {
-                return response.json()
+            if (!response.ok) {
+                throw new Error(response.statusText)
             }
-                
-        },
-            error => {
-                   
-                return error;
-            });
+            return response.json();
+        });
            
             
 };
