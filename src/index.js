@@ -40,12 +40,8 @@ function inputSearch(e) {
                 refs.countryList.insertAdjacentHTML('afterbegin', countryListTpl(country));                                      
             }
             else {
-                clearMarckup();
-                const countryInfo = country.map(makeContryInfo).join(' ');
-                refs.countryInfo.insertAdjacentHTML('afterbegin', countryInfo);
-                // 
-                // refs.countryInfo.insertAdjacentHTML('afterbegin', countryInfoTpl(country));
-                                      
+                clearMarckup();                            
+                refs.countryInfo.insertAdjacentHTML('afterbegin', countryInfoTpl(country));                                      
             };
         })
         .catch(error => {
@@ -53,20 +49,8 @@ function inputSearch(e) {
             return Notiflix.Notify.failure("Oops, there is no country with that name");
         });
         
-};
-   
+}; 
 
-
-
-
-
-function makeContryInfo({ name, capital, flags, population, languages }) {
-    return `<img src = '${flags.svg}' alt = '${name.official} flag' width="60px" heigth = '30px'>
-    <p class = 'item__text'>${name.official}</p>
-    <p>Capital: ${capital}</p>
-    <p>Population: ${population}</p>
-    <p>Languages: ${Object.values(languages)}</p>`
-}
 
 function clearMarckup() {
   refs.countryInfo.innerHTML = ' ';
